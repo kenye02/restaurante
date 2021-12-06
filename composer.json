@@ -1,0 +1,25 @@
+{
+    "name": "rosali/aac",
+    "description": "Framewrok MVC para AAC",
+    "authors": [
+        {
+            "name": "Kenye delgado - Anelida Quispe",
+            "email": "ieaac@gmail.com"
+        }
+    ],
+    "autoload": {
+        "psr-4": {
+            "App\\Controllers\\":"app/controllers",
+            "Libs\\":"libs",
+            "App\\Interfaces\\":"app/interfaces/",
+            "App\\Daos\\":"app/daos/",
+            "App\\Models\\":"app/models/",
+            "App\\Utils\\":"app/utils/",
+            "App\\Utils\\Validation\\":"app/utils/validation"
+        }
+    },
+    "require": {
+        "league/plates": "^3.3",
+        "illuminate/database": "^7.16"
+    }
+}
