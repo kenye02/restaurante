@@ -1,5 +1,5 @@
 <?php
-define('URL','http://localhost:80/aac/');
+define('URL','https://dacharestaurante.herokuapp.com/');
 define('RAIZ', $_SERVER['DOCUMENT_ROOT'].'/aac/');
 define('DRIVER','mysql');
 define('HOST','localhost');
