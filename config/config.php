@@ -1,11 +1,11 @@
 <?php
-define('URL','http://localhost:80/aac/');
-define('RAIZ', $_SERVER['DOCUMENT_ROOT'].'/aac/');
+define('URL','https://dacharestaurante.herokuapp.com/');
+define('RAIZ', $_SERVER['DOCUMENT_ROOT'].'/');
 define('DRIVER','mysql');
-define('HOST','localhost');
-define('DB','cole');
-define('USER','root');
-define('PASSWORD','');
+define('HOST','sql10.freesqldatabase.com');
+define('DB','sql10456972');
+define('USER','sql10456972');
+define('PASSWORD','zW6JJB4Ekj');
 define('CHARSET','utf8');
 define('COLLATION','utf8_unicode_ci');
 define('CHICO','modal-sm');
