@@ -7,7 +7,7 @@ define('DB','sql10456972');
 define('USER','sql10456972');
 define('PASSWORD','zW6JJB4Ekj');
 define('CHARSET','utf8');
-define('COLLATION','utf8_unicode_ci');
+define('COLLATION','utf8_spanish_ci');
 define('CHICO','modal-sm');
 define('NORMAL','');
 define('GRANDE','modal-lg');
